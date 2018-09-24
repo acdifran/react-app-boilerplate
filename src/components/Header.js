@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { startLogout } from "../actions/auth";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { startLogout } from '../actions/auth';
 
 export default () => (
   <header className="header">
@@ -9,7 +9,11 @@ export default () => (
         <Link className="header__title" to="/dashboard">
           <h1>React App</h1>
         </Link>
-        <button className="button button--link" onClick={startLogout()}>
+        <button
+          className="button button--link"
+          type="button"
+          onClick={startLogout()}
+        >
           Logout
         </button>
       </div>
