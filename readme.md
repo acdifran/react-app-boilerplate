@@ -1,3 +1,3 @@
-# Expensify
+# React App
 
-A test/practice app
+A boilerplate for react apps
